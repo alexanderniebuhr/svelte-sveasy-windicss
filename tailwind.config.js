@@ -1,7 +1,10 @@
 module.exports = {
-  darkMode: "class", // or 'media' or 'class'
-  theme: {
-    extend: {},
-  },
-  plugins: [require("windicss/plugin/typography")],
+  plugins: [
+    require("windicss/plugin/typography"),
+    require("windicss/plugin/forms"),
+    require("windicss/plugin/aspect-ratio"),
+    require("windicss/plugin/line-clamp"),
+    require("windicss/plugin/filters"),
+    require("windicss/plugin/scroll-snap"),
+  ],
 };
