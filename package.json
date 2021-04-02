@@ -1,12 +1,12 @@
 {
-  "name": "velte-sveasy-windicss",
+  "name": "svelte-sveasy-windicss",
   "version": "0.1.0",
   "description": "A clean, minimalist widget to test this setup. Svelte + Sveasy + Windicss",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "cross-env NODE_ENV=development node scripts/esserve.js",
-    "build": "cross-env NODE_ENV=production node scripts/esbuild.js"
+    "dev": "cross-env NODE_ENV=development sveasy dev",
+    "build": "cross-env NODE_ENV=production sveasy build"
   },
   "repository": {
     "type": "git",
@@ -27,9 +27,13 @@
   "homepage": "https://github.com/alexanderniebuhr/svelte-sveasy-windicss#readme",
   "dependencies": {
     "cross-env": "7.0.3",
-    "esbuild": "0.8.50",
-    "svelte": "3.32.3",
-    "svelte-windicss-preprocess": "2.2.1",
-    "windicss": "^2.2.0"
+    "esbuild": "0.11.3",
+    "sveasy": "^0.1.0",
+    "svelte": "3.37.0",
+    "svelte-windicss-preprocess": "^3.1.5",
+    "windicss": "2.5.9"
+  },
+  "devDependencies": {
+    "standard": "^16.0.3"
   }
 }
