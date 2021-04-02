@@ -3,7 +3,7 @@ module.exports = {
     silent: false,
     debug: false,
     compile: false,
-    config: 'windi.config.cjs',
+    config: 'windi.config.js',
     prefix: 'windi-',
     verbosity: 1
   })
