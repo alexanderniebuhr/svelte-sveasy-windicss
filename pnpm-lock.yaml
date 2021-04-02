@@ -1,6 +1,5 @@
-dependencies:
+devDependencies:
   cross-env: 7.0.3
-  esbuild: 0.11.3
   sveasy: 0.1.0
   svelte: 3.37.0
   svelte-windicss-preprocess: 3.1.5
@@ -10,7 +9,7 @@ packages:
   /ansi-styles/4.3.0:
     dependencies:
       color-convert: 2.0.1
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -19,7 +18,7 @@ packages:
     dependencies:
       ansi-styles: 4.3.0
       supports-color: 7.2.0
-    dev: false
+    dev: true
     engines:
       node: '>=10'
     resolution:
@@ -27,19 +26,19 @@ packages:
   /color-convert/2.0.1:
     dependencies:
       color-name: 1.1.4
-    dev: false
+    dev: true
     engines:
       node: '>=7.0.0'
     resolution:
       integrity: sha512-RRECPsj7iu/xb5oKYcsFHSppFNnsj/52OVTRKb4zP5onXwVF3zVmmToNcOfGC+CRDpfK/U584fMg38ZHCaElKQ==
   /color-name/1.1.4:
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==
   /cross-env/7.0.3:
     dependencies:
       cross-spawn: 7.0.3
-    dev: false
+    dev: true
     engines:
       node: '>=10.14'
       npm: '>=6'
@@ -52,35 +51,29 @@ packages:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
       integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==
-  /esbuild/0.11.3:
-    dev: false
-    hasBin: true
-    requiresBuild: true
-    resolution:
-      integrity: sha512-BzVRHcCtFepjS9WcqRjqoIxLqgpK21a8J4Zi4msSGxDxiXVO1IbcqT1KjhdDDnJxKfe7bvzZrvMEX+bVO0Elcw==
   /esbuild/0.8.57:
-    dev: false
+    dev: true
     hasBin: true
     requiresBuild: true
     resolution:
       integrity: sha512-j02SFrUwFTRUqiY0Kjplwjm1psuzO1d6AjaXKuOR9hrY0HuPsT6sV42B6myW34h1q4CRy+Y3g4RU/cGJeI/nNA==
   /has-flag/4.0.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
   /isexe/2.0.0:
-    dev: false
+    dev: true
     resolution:
       integrity: sha1-6PvzdNxVb/iUehDcsFctYz8s+hA=
   /path-key/3.1.1:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -89,14 +82,14 @@ packages:
     dependencies:
       prettier: 2.2.1
       svelte: 3.37.0
-    dev: false
+    dev: true
     peerDependencies:
       prettier: ^1.16.4 || ^2.0.0
       svelte: ^3.2.0
     resolution:
       integrity: sha512-Xdmqgr71tAuMqqzNCK52/v94g/Yv7V7lz+nmbO9NEA+9ol15VV3uUHOfydMNOo3SWvFaVlBcp947ebEaMWqVfQ==
   /prettier/2.2.1:
-    dev: false
+    dev: true
     engines:
       node: '>=10.13.0'
     hasBin: true
@@ -105,13 +98,13 @@ packages:
   /shebang-command/2.0.0:
     dependencies:
       shebang-regex: 3.0.0
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
       integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==
   /shebang-regex/3.0.0:
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -119,7 +112,7 @@ packages:
   /supports-color/7.2.0:
     dependencies:
       has-flag: 4.0.0
-    dev: false
+    dev: true
     engines:
       node: '>=8'
     resolution:
@@ -128,7 +121,7 @@ packages:
     dependencies:
       esbuild: 0.8.57
       svelte: 3.37.0
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-guyf4KFI3H9kmkznpfuHPf0O4z0ihCKsh5CBilHqDtFzAbqrBXAyxq+5kQmp4jLvjX6A5u41NjEoZkr2Bz1PoA==
   /svelte-windicss-preprocess/3.1.5:
@@ -139,11 +132,11 @@ packages:
       svelte: 3.37.0
       windicss: 2.5.9
       windicss-runtime-dom: 0.1.1
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-0q7/ROT8R6kNSohsnkXrBop56HORYqjxah4D1FFh5DXD5AV5dgWrg70o3B3HrCPWWA3icGqhAuCAc7WRLy4xBQ==
   /svelte/3.37.0:
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     resolution:
@@ -151,18 +144,18 @@ packages:
   /which/2.0.2:
     dependencies:
       isexe: 2.0.0
-    dev: false
+    dev: true
     engines:
       node: '>= 8'
     hasBin: true
     resolution:
       integrity: sha512-BLI3Tl1TW3Pvl70l3yq3Y64i+awpwXqsGBYWkkqMtnbXgrMD+yj7rhW0kuEDxzJaYXGjEW5ogapKNMEKNMjibA==
   /windicss-runtime-dom/0.1.1:
-    dev: false
+    dev: true
     resolution:
       integrity: sha512-hUNMCoGW01r946w710BDO/3bLgLQrlNRLVqXgCdbMPedIi6z5QFTIkzw+DVCEt6gojmrhy055CJ+ATTCefJTmg==
   /windicss/2.5.9:
-    dev: false
+    dev: true
     engines:
       node: '>= 12'
     hasBin: true
@@ -170,7 +163,6 @@ packages:
       integrity: sha512-nldl2eVxK2qLwYLhh1/+fnvT8lhxckQp8cK+Gd8nPAjJOnuvWogNiQZ/9h1jTMAkYWxWUrxT5mhP3F0Klxa99Q==
 specifiers:
   cross-env: 7.0.3
-  esbuild: 0.11.3
   sveasy: ^0.1.0
   svelte: 3.37.0
   svelte-windicss-preprocess: ^3.1.5
