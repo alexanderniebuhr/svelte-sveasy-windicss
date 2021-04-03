@@ -2,7 +2,7 @@ devDependencies:
   cross-env: 7.0.3
   sveasy: 0.1.0
   svelte: 3.37.0
-  svelte-windicss-preprocess: 3.1.5
+  svelte-windicss-preprocess: 3.2.1
   windicss: 2.5.9
 lockfileVersion: 5.2
 packages:
@@ -124,7 +124,7 @@ packages:
     dev: true
     resolution:
       integrity: sha512-guyf4KFI3H9kmkznpfuHPf0O4z0ihCKsh5CBilHqDtFzAbqrBXAyxq+5kQmp4jLvjX6A5u41NjEoZkr2Bz1PoA==
-  /svelte-windicss-preprocess/3.1.5:
+  /svelte-windicss-preprocess/3.2.1:
     dependencies:
       chalk: 4.1.0
       prettier: 2.2.1
@@ -134,7 +134,7 @@ packages:
       windicss-runtime-dom: 0.1.1
     dev: true
     resolution:
-      integrity: sha512-0q7/ROT8R6kNSohsnkXrBop56HORYqjxah4D1FFh5DXD5AV5dgWrg70o3B3HrCPWWA3icGqhAuCAc7WRLy4xBQ==
+      integrity: sha512-KzwVBTJ//3cAbPKzvRibMwiR1HBlz8lpe/3MyPi/tDX1raED8pYqtXJ3R61Y1bTJz9bXpOfpBm7RhpgcEaDd3g==
   /svelte/3.37.0:
     dev: true
     engines:
@@ -165,5 +165,5 @@ specifiers:
   cross-env: 7.0.3
   sveasy: ^0.1.0
   svelte: 3.37.0
-  svelte-windicss-preprocess: ^3.1.5
+  svelte-windicss-preprocess: ^3.2.1
   windicss: 2.5.9

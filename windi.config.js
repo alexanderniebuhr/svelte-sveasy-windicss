@@ -1,10 +1,17 @@
 //@ts-check
-const { defineConfig } = require("windicss/helpers")
+import { defineConfig } from "windicss/helpers"
 
-module.exports = defineConfig({
+export default defineConfig({
+  theme: {
+    extend: {
+      colors: {
+
+      }
+    }
+  },
   plugins: [
-    require('windicss/plugin/forms'),
-    require('windicss/plugin/line-clamp'),
-    require('windicss/plugin/typography')
+    await import('windicss/plugin/forms'),
+    await import('windicss/plugin/line-clamp'),
+    await import('windicss/plugin/typography')
   ]
 })
