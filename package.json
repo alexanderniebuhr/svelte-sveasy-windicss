@@ -29,7 +29,7 @@
     "cross-env": "7.0.3",
     "sveasy": "^0.1.0",
     "svelte": "3.37.0",
-    "svelte-windicss-preprocess": "^3.1.5",
+    "svelte-windicss-preprocess": "^3.2.0",
     "windicss": "2.5.9"
   }
 }
