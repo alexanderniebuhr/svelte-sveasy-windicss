@@ -30,6 +30,6 @@
     "sveasy": "^0.1.0",
     "svelte": "3.37.0",
     "svelte-windicss-preprocess": "^3.2.1",
-    "windicss": "2.5.9"
+    "windicss": "2.5.10"
   }
 }
