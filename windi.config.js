@@ -1,17 +1,17 @@
 //@ts-check
 import { defineConfig } from "windicss/helpers"
+import forms from 'windicss/plugin/forms'
+import lineClamp from "windicss/plugin/line-clamp"
+import typography from "windicss/plugin/typography"
+
 
 export default defineConfig({
   theme: {
-    extend: {
-      colors: {
-
-      }
-    }
+    extend: {}
   },
   plugins: [
-    await import('windicss/plugin/forms'),
-    await import('windicss/plugin/line-clamp'),
-    await import('windicss/plugin/typography')
+    forms,
+    lineClamp,
+    typography
   ]
 })
