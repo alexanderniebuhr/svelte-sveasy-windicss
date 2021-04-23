@@ -27,7 +27,7 @@
   "homepage": "https://github.com/alexanderniebuhr/svelte-sveasy-windicss#readme",
   "devDependencies": {
     "cross-env": "^7.0.3",
-    "sveasy": "0.1.16",
+    "sveasy": "0.2.5",
     "svelte": "^3.37.0",
     "svelte-windicss-preprocess": "^3.5.2"
   },
