@@ -28,7 +28,7 @@
   "devDependencies": {
     "cross-env": "^7.0.3",
     "sveasy": "0.1.16",
-    "svelte": "^3.37.0",
+    "svelte": "^3.38.2",
     "svelte-windicss-preprocess": "^3.5.2"
   },
   "dependencies": {
