@@ -4,9 +4,10 @@ export default {
   preprocess: windi.preprocess({
     silent: false,
     debug: true,
-    verbosity: 1,
-    config: 'windi.config.js',
-    compile: false,
-    prefix: 'windi-'
+    verbosity: 4,
+    config: "windi.config.js",
+    devTools: {
+      enabled: true
+    }
   })
 }
