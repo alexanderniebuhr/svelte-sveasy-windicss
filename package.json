@@ -28,7 +28,7 @@
   "devDependencies": {
     "cross-env": "7.0.3",
     "sveasy": "0.3.0",
-    "svelte": "3.38.2",
+    "svelte": "3.38.3",
     "svelte-windicss-preprocess": "4.0.0-beta.10",
     "windicss": "3.0.0-beta.6",
     "windicss-runtime-dom": "0.1.1"
