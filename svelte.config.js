@@ -1,13 +1,11 @@
 //@ts-check
-import windi from 'svelte-windicss-preprocess'
+import { windi } from 'svelte-windicss-preprocess'
 export default {
-  preprocess: windi.preprocess({
+  preprocess: windi({
     silent: false,
-    debug: true,
-    verbosity: 4,
-    config: "windi.config.js",
+    configPath: "windi.config.js",
     devTools: {
       enabled: true
     }
-  })
+  }),
 }
