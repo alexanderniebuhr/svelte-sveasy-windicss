@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/alexanderniebuhr/svelte-sveasy-windicss#readme",
   "devDependencies": {
+    "@windicss/plugin-question-mark": "0.1.1",
     "cross-env": "7.0.3",
     "sveasy": "0.4.3",
     "svelte": "3.38.3",

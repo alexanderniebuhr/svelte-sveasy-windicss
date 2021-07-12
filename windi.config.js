@@ -1,10 +1,11 @@
 //@ts-check
+import questionMark from "@windicss/plugin-question-mark";
 import { defineConfig } from "windicss/helpers";
-
-import forms from "windicss/plugin/forms";
 import filters from "windicss/plugin/filters";
+import forms from "windicss/plugin/forms";
 import lineClamp from "windicss/plugin/line-clamp";
 import typography from "windicss/plugin/typography";
+
 
 export default defineConfig({
   preflight: false,
@@ -31,5 +32,6 @@ export default defineConfig({
     filters,
     lineClamp,
     typography,
+    questionMark
   ],
 });
