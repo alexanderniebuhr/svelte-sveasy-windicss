@@ -28,7 +28,7 @@
   "devDependencies": {
     "@windicss/plugin-question-mark": "0.1.1",
     "cross-env": "7.0.3",
-    "sveasy": "0.4.3",
+    "sveasy": "0.5.3",
     "svelte": "3.38.3",
     "svelte-windicss-preprocess": "4.0.12",
     "windicss": "3.1.4",
