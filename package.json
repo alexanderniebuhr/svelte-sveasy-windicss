@@ -31,7 +31,7 @@
     "sveasy": "0.4.3",
     "svelte": "3.38.3",
     "svelte-windicss-preprocess": "4.0.12",
-    "windicss": "3.1.4",
+    "windicss": "3.4.3",
     "windicss-runtime-dom": "3.0.0"
   }
 }
